@@ -64,3 +64,13 @@ You can also manually set up ESLint in your project.
 #### rules
 
 Rules are building blocks of eslint. A rule validates if your code meets certain expectation or not, and what to do if doesn't meet the expectation.
+Each rule has a unique identifier and can be configured to report an error, a warning or turned off. You constumized the rule based on your project coding standards or use popular preset configurations like "eslint:recommended" or "airbnb" that come bundled with a set of commonly used rules.
+
+#### Configurations
+
+- Configurations file is a place where all your built in rules, plugins, custom rules and shareable configs exist
+- Shareable conguration is a npm module, which can be share to any project
+
+#### Plugins
+
+A ESLint plugin is a npm module, which contain set of rules, configurations, preprocessors and environments. Plugins can be used to enforce a style guide to support Javascript extensions like Typescript, library (React), framework (Angular) etc.
