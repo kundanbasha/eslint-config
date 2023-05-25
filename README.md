@@ -16,9 +16,11 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
 # Eslint
+
+### What is Eslint?
+
+Eslint is a configurable tool, which helps to identify and fix problems in your javascript code. Problems can be anything from potential bugs, to following best practices, to styling issues.
 
 ### Setup
 
@@ -56,3 +58,9 @@ You can also manually set up ESLint in your project.
   ```bash
   npx eslint project-dir/ file1.js
   ```
+
+### Core concepts
+
+#### rules
+
+Rules are building blocks of eslint. A rule validates if your code meets certain expectation or not, and what to do if doesn't meet the expectation.
