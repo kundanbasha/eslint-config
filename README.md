@@ -18,23 +18,26 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Eslint
+# Eslint
 
-# Setup
+### Setup
 
 You can also manually set up ESLint in your project.
 
 - Install eslint project in your project
   ```bash
-  npm install --save-dev eslint (or)
-  npm i -D elsint
+  npm install --save-dev eslint (or) npm i -D elsint
   ```
 - Create a .eslintrc.(js/json) file in your root folder
+
   ```bash
   touch .eslintrc or
+
   touch .eslintrc.js or
+
   touch .eslintrc.json
   ```
+
 - Add following basic code to your .eslintrc file
   ```bash
   module.exports = {
